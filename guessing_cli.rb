@@ -12,7 +12,7 @@ def run_guessing_game
     elsif input.to_i == rng
       puts "You guessed the correct number!"
     else
-      puts "The computer guess #{rng}"
+      puts "The computer guessed #{rng}"
     end
     
   end
